@@ -1,6 +1,8 @@
 body{
-    background-color:#3A8891; 
+    background-color:#C9EEFF; 
 }
+
+/*********** TAG SELECTORS *************/
 
 hr{
     background-color:none;
@@ -8,8 +10,7 @@ hr{
     width:5%;
     border-style:dotted none none;
     border-width:5px;
-    border-color:grey;
-   
+    border-color:grey;  
 }
 
 img{
@@ -20,4 +21,15 @@ img{
 
 h1{
     color: #3A8891;
+}
+
+/*********** pseudo CLASS SELECTORS *************/
+img:hover {
+background-color: gold;
+}
+
+/*********** ID SELECTORS *************/
+
+#dp{
+    background-color: #0E8388;
 }
